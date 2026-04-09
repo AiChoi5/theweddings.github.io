@@ -185,7 +185,7 @@ footer{padding:60px 20px;text-align:center;color:white;font-size:14px}
 
 <div class="hero" id="cover">
 <p>Kepada Yth</p>
-<h1 id="guest">Putri & Putra</h1>
+<h1 id="guest">Bapak/Ibu</h1>
 <p>31 Juli 2026</p>
 <button class="open-btn" type="button" onclick="openInvite()">Buka Undangan</button>
 </div>
@@ -312,7 +312,7 @@ function toggleMusic(){
 }
 
 const params=new URLSearchParams(location.search);
-document.getElementById('guest').innerText=params.get('to')||'Tamu Undangan';
+document.getElementById('guest').innerText=params.get('to')||'Bapak/Ibu';
 
 /* COUNTDOWN */
 const wedding=new Date('Oct 10, 2026 10:00:00').getTime();
